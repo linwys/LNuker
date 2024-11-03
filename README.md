@@ -10,10 +10,12 @@ pip install discord.py==1.7.3, colorama
 4. Enter in any server and command `!nuke`
 5. Enjoy!
 ## TODO:
-- [ ] Ban all users in server
-- [ ] Kick all users in server
-- [ ] Delete roles
+- [x] Ban all users in server
+- [x] Kick all users in server
+- [x] Delete roles
 - [x] Create roles
 - [x] Delete && create channels
 - [x] Change server name + avatar (bugly)
 - [x] Spam in all channels  
+- [ ] Make his faster
+- [ ] Delete emoji's/stickers
