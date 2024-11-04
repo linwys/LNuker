@@ -40,6 +40,8 @@ async def menu():
                 await nuker(guild)
             else:
                 print(f"{Fore.RED}Bot is not on the server or does not have administrator permissions!{Style.RESET_ALL}")
+                os.system('cls')
+                banner()
         elif choice == '2':
             break
         else:
