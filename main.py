@@ -46,6 +46,9 @@ async def menu():
             break
         else:
             print(f"{Fore.RED}Invalid choice, please try again{Style.RESET_ALL}")
+            time.sleep(1)
+            os.system('cls')
+            banner()
 
 async def nuker(guild):
     try:
