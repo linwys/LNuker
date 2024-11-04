@@ -7,8 +7,7 @@ pip install discord.py==1.7.3, colorama
 ```
 2. Change token in main.py
 3. Just open .py file
-4. Enter in any server and command `!nuke`
-5. Enjoy!
+4. Enjoy!
 ## TODO:
 - [x] Ban all users in server
 - [x] Kick all users in server
