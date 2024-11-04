@@ -1,3 +1,4 @@
+# farm коммитов
 import discord, asyncio, time, os, random, colorama; from colorama import Fore, Style
 
 colorama.init()
