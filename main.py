@@ -1,3 +1,4 @@
+# я ебал твой рот
 import discord, asyncio, time, os, random, colorama; from colorama import Fore, Style
 
 colorama.init()
